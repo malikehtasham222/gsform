@@ -102,6 +102,7 @@ class _GSSpinnerFieldState extends State<GSSpinnerField> {
                 ),
               ),
               isExpanded: true,
+              dropdownColor: Colors.white,
               value: widget.returnedData,
               items: widget.model.items
                   .map((e) => DropdownMenuItem(
